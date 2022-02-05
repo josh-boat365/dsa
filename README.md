@@ -1,2 +1,2 @@
-# journey2FAAANG
-A repo for my preparation to FAANG
+# journey2FAANGMT
+A repo for my preparation to FAANGMT
