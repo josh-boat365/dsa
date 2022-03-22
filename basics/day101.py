@@ -63,9 +63,8 @@ print(words2)
 print(words3)
 
 #5
-sentence2 = "which i formed today"
+list_of_words = ['my', 'favorite', 'programming', 'language', 'is', 'pyhton']
 
-new_sentence = words.join(sentence2)
+sentence = " ".join(list_of_words)
 
-print(new_sentence)
-
+print(sentence)
