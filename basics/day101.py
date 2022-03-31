@@ -40,7 +40,7 @@ print("32 Dgrees to Radians: ", degree_In_Radians)
 #3 
 todays_date = datetime.today()
 time_of_day = datetime.today().strftime("%H:%M %a")
-# string format in time -> "%H:%M %p" -> prints time in Am or PM
+# string format in time -> "%H:%M %p" -> prints time and appends Am or PM
 # string format in time -> "%H:%M %a" -> prints time and appends the current day
 
 print("Today's date is: ", todays_date.strftime("%B %d %Y"))
@@ -63,8 +63,20 @@ print(words2)
 print(words3)
 
 #5
-list_of_words = ['my', 'favorite', 'programming', 'language', 'is', 'pyhton']
+list_of_words = ['my', 'favorite', 'programming', 'language', 'is', 'python']
 
 sentence = " ".join(list_of_words)
 
 print(sentence)
+
+#Lessons Learnt form Geek for Geeks 
+# Uisng formatted Strings 
+
+num1 = int(input("Enter Number: "))
+num2 = int(input("\nEnter Number: "))
+
+ans = num1 + num2
+
+#displaying answer using formatted strings
+print("The sum of {0} and {1} is {2}".format(num1, num2, ans))
+
