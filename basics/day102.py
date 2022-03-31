@@ -39,3 +39,13 @@ print(alist[:])
 print(alist[::-1])
 print(alist[::-2])
 
+#Finding the nth Fibonacci
+#the nth fibonacci = f(n) = f(n-1) + f(n-2)
+
+def f(n):
+    if n <=1:
+        return n
+    else:
+        return (f(n-1) + f(n-2))
+
+print("The Fibonacci of an nth number is " + str(f(7)))
