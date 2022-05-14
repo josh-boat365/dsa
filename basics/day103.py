@@ -50,8 +50,10 @@ currentIndex = 0
 #using recursions
 def replaceIntWithZero(array, currentIndex):
     if currentIndex < len(array):
-        if array[currentIndex] < 0:
+        if array[currentIndex] < 1:
             array[currentIndex] = 0
+        if array[currentIndex] > 1:
+            array[currentIndex] = 1
             
         replaceIntWithZero(array, currentIndex + 1)
         

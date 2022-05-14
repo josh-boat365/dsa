@@ -53,5 +53,51 @@ def isPalindrome(string):
     
 print(isPalindrome("aaa"))
 
+#finding the mean of an array
+import math
+import numpy as np
+
+a = [[1,2,3,4], 
+     [2,3,4,5], 
+     [5,6,7,6,]]
+
+# b = np.array(a)
+# c = np.mean(b, axis=1)
+
+out_arr = np.arange(3)
+
+d = np.mean(a, axis=1, out=out_arr)
+
+print(d)
+
+def list_mean(p):
+    total = 0
+    i = 0
+    if i < len(p):
+        for t in p:
+            total = total + p[i]
+            i += 1
+    return i
+
+    mean = i / len(p)
+    return mean
+
+# def arr_mean(n):
+#     for i in n:
+#         mean = sum(int(n[i])) / len(n[i])
+        
+#         return mean
+
+# aar = [[1,2,3,4],[23,5],[2,3,4]]   
+# print(arr_mean(aar))
+
+def func(lis):
+    res= []
+    for i in range(1,len(lis)+1):
+        if lis[i]==lis[i-1]+1:
+            res.append(True)
+        else:
+            res.append(False)
+    return res
 
     
