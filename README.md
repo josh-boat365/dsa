@@ -26,6 +26,8 @@ Other Learning Resources:
 
 > [Programiz - Java Lessons](https://www.programiz.com/java-programming/examples)
 
+> [Guide to Cracking the Coding Interview - DSA](https://www.enjoyalgorithms.com/blog/step-by-step-guidance-to-master-data-structure-and-algorithms-for-coding-interview)
+
  Books to Read:
 
  > [Begining Java Data Structures and Algorithms - Shape your mind](./books/Beginning_Java_Data_Structures_and_Algorithms_Sharpen_your_problem.pdf)
