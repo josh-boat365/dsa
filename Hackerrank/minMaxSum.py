@@ -11,6 +11,7 @@ def minMaxSum(arr):
     y = sum(arr[1:])
     #return result 
     print(x,y)
+    #one line code 
     # print(sum(sorted(arr[0:-1])), sum(sorted(arr[1:])))
 
 arr = [1,2,3,4,5]
