@@ -1,6 +1,3 @@
-from tkinter import N
-from numpy import array2string
-
 
 def sumArr(arr):
     sum = 0
